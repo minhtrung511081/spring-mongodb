@@ -15,6 +15,7 @@ public class DbSeeder implements CommandLineRunner {
 	public void show(){
 		System.out.println("hello");
 		System.out.println("trung");
+		System.out.println("branchnew");
 	}
 
     public DbSeeder(HotelRepository hotelRepository) {
