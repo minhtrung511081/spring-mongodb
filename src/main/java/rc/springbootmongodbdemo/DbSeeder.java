@@ -11,6 +11,10 @@ import java.util.List;
 @Component
 public class DbSeeder implements CommandLineRunner {
     private HotelRepository hotelRepository;
+	
+	public void show(){
+		System.out.println("hello");
+	}
 
     public DbSeeder(HotelRepository hotelRepository) {
         this.hotelRepository = hotelRepository;
